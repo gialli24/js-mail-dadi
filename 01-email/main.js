@@ -13,6 +13,7 @@ for (let i = 0; i < guestsEmails.length; i++) {
 
     if (guestEmail === userEmail) {
         message = "Benvenuto!";
+        break;
     }
     
 }
