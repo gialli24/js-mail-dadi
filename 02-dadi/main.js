@@ -2,8 +2,8 @@
 /* Tutti i valori devono essere tra 1 e 6 compresi */
 /* Uso di Math.random() */
 
-userDice = parseInt(Math.random() * 6 + 1);
-computerDice = parseInt(Math.random() * 6 + 1);
+userDice = parseInt(Math.floor() * 6) + 1;
+computerDice = parseInt(Math.floor() * 6) + 1;
 
 console.log("Utente: " + userDice, "\nComputer: " + computerDice);
 
